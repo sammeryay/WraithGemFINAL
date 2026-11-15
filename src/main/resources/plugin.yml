@@ -1,0 +1,13 @@
+name: WraithGem
+main: com.wraith.WraithPlugin
+version: 1.0.0
+api-version: '1.21'
+description: Wraith Gem and the Wraith Hearts event
+commands:
+  wraith:
+    description: Wraith gem commands
+    usage: /wraith <config|set|reset>
+    permission: wraith.admin
+permissions:
+  wraith.admin:
+    default: op
