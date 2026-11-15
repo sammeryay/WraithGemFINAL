@@ -1,0 +1,22 @@
+gem:
+  material: ECHO_SHARD
+  custom-model-data: 0
+  item-model: wraith:wraith_gem   # leave empty to show the plain echo shard
+  soulbound: true
+guard:
+  cooldown: 130
+  duration: 10
+  resistance: 5
+dash:
+  cooldown: 130
+  distance: 7
+passives:
+  crit-chance: 50
+  reach: 5.0
+  reach-chance: 100
+  hearts: 15
+particles:
+  amount: 1.0
+hearts:
+  steal: 2
+  max: 3
